@@ -1,0 +1,986 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26D07F615B36F65CB078EBBE /* Pods_YCSecurity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3777D2D2C0DD1951AF4835 /* Pods_YCSecurity.framework */; };
+		2FC0BDDE49863F4606CCB40F /* Pods_YCSecurityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E5093764B34EE4E2C1B3D31 /* Pods_YCSecurityTests.framework */; };
+		5830FA5E24D92CA200B63E7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5830FA5D24D92CA200B63E7B /* AppDelegate.m */; };
+		5830FA6124D92CA200B63E7B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5830FA6024D92CA200B63E7B /* SceneDelegate.m */; };
+		5830FA6424D92CA200B63E7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5830FA6324D92CA200B63E7B /* ViewController.m */; };
+		5830FA6724D92CA200B63E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5830FA6524D92CA200B63E7B /* Main.storyboard */; };
+		5830FA6924D92CA400B63E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5830FA6824D92CA400B63E7B /* Assets.xcassets */; };
+		5830FA6C24D92CA400B63E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5830FA6A24D92CA400B63E7B /* LaunchScreen.storyboard */; };
+		5830FA6F24D92CA400B63E7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5830FA6E24D92CA400B63E7B /* main.m */; };
+		5830FA7924D92CA400B63E7B /* YCSecurityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5830FA7824D92CA400B63E7B /* YCSecurityTests.m */; };
+		5830FA8424D92CA400B63E7B /* YCSecurityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5830FA8324D92CA400B63E7B /* YCSecurityUITests.m */; };
+		5830FAED24D92CAE00B63E7B /* HBRSAHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5830FA9424D92CAD00B63E7B /* HBRSAHandler.m */; };
+		5830FAEE24D92CAE00B63E7B /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5830FA9624D92CAD00B63E7B /* libcrypto.a */; };
+		5830FAEF24D92CAE00B63E7B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5830FA9724D92CAD00B63E7B /* LICENSE */; };
+		5830FAF024D92CAE00B63E7B /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5830FA9824D92CAD00B63E7B /* libssl.a */; };
+		5830FAF124D92CAE00B63E7B /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5830FAE624D92CAD00B63E7B /* RSA.m */; };
+		5830FAF224D92CAE00B63E7B /* YCSafeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5830FAE824D92CAD00B63E7B /* YCSafeTools.m */; };
+		5830FAF324D92CAE00B63E7B /* YCSafeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5830FAE924D92CAD00B63E7B /* YCSafeManager.m */; };
+		5830FAF424D92CAE00B63E7B /* YCRandomKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 5830FAEA24D92CAD00B63E7B /* YCRandomKey.m */; };
+		C49050839673A9644EFFBB62 /* Pods_YCSecurity_YCSecurityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62CE705643740183E1967B6 /* Pods_YCSecurity_YCSecurityUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5830FA7524D92CA400B63E7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5830FA5124D92CA200B63E7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5830FA5824D92CA200B63E7B;
+			remoteInfo = YCSecurity;
+		};
+		5830FA8024D92CA400B63E7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5830FA5124D92CA200B63E7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5830FA5824D92CA200B63E7B;
+			remoteInfo = YCSecurity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04805366889B81A644A057AD /* Pods-YCSecurity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCSecurity.release.xcconfig"; path = "Target Support Files/Pods-YCSecurity/Pods-YCSecurity.release.xcconfig"; sourceTree = "<group>"; };
+		0E5093764B34EE4E2C1B3D31 /* Pods_YCSecurityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCSecurityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B3777D2D2C0DD1951AF4835 /* Pods_YCSecurity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCSecurity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5830FA5924D92CA200B63E7B /* YCSecurity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCSecurity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5830FA5C24D92CA200B63E7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5830FA5D24D92CA200B63E7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5830FA5F24D92CA200B63E7B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5830FA6024D92CA200B63E7B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5830FA6224D92CA200B63E7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5830FA6324D92CA200B63E7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5830FA6624D92CA200B63E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5830FA6824D92CA400B63E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5830FA6B24D92CA400B63E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5830FA6D24D92CA400B63E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5830FA6E24D92CA400B63E7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5830FA7424D92CA400B63E7B /* YCSecurityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCSecurityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5830FA7824D92CA400B63E7B /* YCSecurityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCSecurityTests.m; sourceTree = "<group>"; };
+		5830FA7A24D92CA400B63E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5830FA7F24D92CA400B63E7B /* YCSecurityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCSecurityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5830FA8324D92CA400B63E7B /* YCSecurityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCSecurityUITests.m; sourceTree = "<group>"; };
+		5830FA8524D92CA400B63E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5830FA9224D92CAD00B63E7B /* YCSafeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCSafeManager.h; sourceTree = "<group>"; };
+		5830FA9424D92CAD00B63E7B /* HBRSAHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBRSAHandler.m; sourceTree = "<group>"; };
+		5830FA9624D92CAD00B63E7B /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		5830FA9724D92CAD00B63E7B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5830FA9824D92CAD00B63E7B /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		5830FA9A24D92CAD00B63E7B /* pem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
+		5830FA9B24D92CAD00B63E7B /* pem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
+		5830FA9C24D92CAD00B63E7B /* ssl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
+		5830FA9D24D92CAD00B63E7B /* ossl_typ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
+		5830FA9E24D92CAD00B63E7B /* dtls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
+		5830FA9F24D92CAD00B63E7B /* err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		5830FAA024D92CAD00B63E7B /* bn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
+		5830FAA124D92CAD00B63E7B /* blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		5830FAA224D92CAD00B63E7B /* cms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
+		5830FAA324D92CAD00B63E7B /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		5830FAA424D92CAD00B63E7B /* conf_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
+		5830FAA524D92CAD00B63E7B /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
+		5830FAA624D92CAD00B63E7B /* asn1_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
+		5830FAA724D92CAD00B63E7B /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		5830FAA824D92CAD00B63E7B /* kssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
+		5830FAA924D92CAD00B63E7B /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		5830FAAA24D92CAD00B63E7B /* symhacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
+		5830FAAB24D92CAD00B63E7B /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		5830FAAC24D92CAD00B63E7B /* opensslconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		5830FAAD24D92CAD00B63E7B /* bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
+		5830FAAE24D92CAD00B63E7B /* rc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
+		5830FAAF24D92CAD00B63E7B /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		5830FAB024D92CAD00B63E7B /* ui_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
+		5830FAB124D92CAD00B63E7B /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
+		5830FAB224D92CAD00B63E7B /* ssl23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
+		5830FAB324D92CAD00B63E7B /* conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		5830FAB424D92CAD00B63E7B /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		5830FAB524D92CAD00B63E7B /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
+		5830FAB624D92CAD00B63E7B /* txt_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
+		5830FAB724D92CAD00B63E7B /* safestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
+		5830FAB824D92CAD00B63E7B /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		5830FAB924D92CAD00B63E7B /* objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
+		5830FABA24D92CAD00B63E7B /* pkcs12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
+		5830FABB24D92CAD00B63E7B /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		5830FABC24D92CAD00B63E7B /* opensslv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
+		5830FABD24D92CAD00B63E7B /* pkcs7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
+		5830FABE24D92CAD00B63E7B /* obj_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
+		5830FABF24D92CAD00B63E7B /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		5830FAC024D92CAD00B63E7B /* ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
+		5830FAC124D92CAD00B63E7B /* srp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
+		5830FAC224D92CAD00B63E7B /* camellia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
+		5830FAC324D92CAD00B63E7B /* evp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
+		5830FAC424D92CAD00B63E7B /* e_os2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
+		5830FAC524D92CAD00B63E7B /* md4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
+		5830FAC624D92CAD00B63E7B /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		5830FAC724D92CAD00B63E7B /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		5830FAC824D92CAD00B63E7B /* comp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		5830FAC924D92CAD00B63E7B /* cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		5830FACA24D92CAD00B63E7B /* rc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
+		5830FACB24D92CAD00B63E7B /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		5830FACC24D92CAD00B63E7B /* des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		5830FACD24D92CAD00B63E7B /* ocsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
+		5830FACE24D92CAD00B63E7B /* ec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
+		5830FACF24D92CAD00B63E7B /* ecdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		5830FAD024D92CAD00B63E7B /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		5830FAD124D92CAD00B63E7B /* ts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
+		5830FAD224D92CAD00B63E7B /* pqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		5830FAD324D92CAD00B63E7B /* dso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
+		5830FAD424D92CAD00B63E7B /* seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
+		5830FAD524D92CAD00B63E7B /* modes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
+		5830FAD624D92CAD00B63E7B /* ssl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
+		5830FAD724D92CAD00B63E7B /* rsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		5830FAD824D92CAD00B63E7B /* krb5_asn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
+		5830FAD924D92CAD00B63E7B /* des_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
+		5830FADA24D92CAD00B63E7B /* ripemd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
+		5830FADB24D92CAD00B63E7B /* whrlpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
+		5830FADC24D92CAD00B63E7B /* tls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
+		5830FADD24D92CAD00B63E7B /* mdc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
+		5830FADE24D92CAD00B63E7B /* dsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
+		5830FADF24D92CAD00B63E7B /* srtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
+		5830FAE024D92CAD00B63E7B /* asn1t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
+		5830FAE124D92CAD00B63E7B /* cmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmac.h; sourceTree = "<group>"; };
+		5830FAE224D92CAD00B63E7B /* ebcdic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
+		5830FAE324D92CAD00B63E7B /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		5830FAE424D92CAD00B63E7B /* lhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
+		5830FAE524D92CAD00B63E7B /* HBRSAHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBRSAHandler.h; sourceTree = "<group>"; };
+		5830FAE624D92CAD00B63E7B /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		5830FAE724D92CAD00B63E7B /* YCRandomKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCRandomKey.h; sourceTree = "<group>"; };
+		5830FAE824D92CAD00B63E7B /* YCSafeTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCSafeTools.m; sourceTree = "<group>"; };
+		5830FAE924D92CAD00B63E7B /* YCSafeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCSafeManager.m; sourceTree = "<group>"; };
+		5830FAEA24D92CAD00B63E7B /* YCRandomKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCRandomKey.m; sourceTree = "<group>"; };
+		5830FAEB24D92CAD00B63E7B /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		5830FAEC24D92CAD00B63E7B /* YCSafeTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCSafeTools.h; sourceTree = "<group>"; };
+		66BA6C0CF953807840163232 /* Pods-YCSecurity-YCSecurityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCSecurity-YCSecurityUITests.debug.xcconfig"; path = "Target Support Files/Pods-YCSecurity-YCSecurityUITests/Pods-YCSecurity-YCSecurityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A62CE705643740183E1967B6 /* Pods_YCSecurity_YCSecurityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCSecurity_YCSecurityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B173457C78A4934668DA76 /* Pods-YCSecurityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCSecurityTests.release.xcconfig"; path = "Target Support Files/Pods-YCSecurityTests/Pods-YCSecurityTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD8441EDCA76739C5E41DE8B /* Pods-YCSecurityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCSecurityTests.debug.xcconfig"; path = "Target Support Files/Pods-YCSecurityTests/Pods-YCSecurityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F83003B6F40F8E5F21213FDC /* Pods-YCSecurity-YCSecurityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCSecurity-YCSecurityUITests.release.xcconfig"; path = "Target Support Files/Pods-YCSecurity-YCSecurityUITests/Pods-YCSecurity-YCSecurityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF0CA2F98AC27CCAA3973691 /* Pods-YCSecurity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCSecurity.debug.xcconfig"; path = "Target Support Files/Pods-YCSecurity/Pods-YCSecurity.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5830FA5624D92CA200B63E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5830FAF024D92CAE00B63E7B /* libssl.a in Frameworks */,
+				5830FAEE24D92CAE00B63E7B /* libcrypto.a in Frameworks */,
+				26D07F615B36F65CB078EBBE /* Pods_YCSecurity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5830FA7124D92CA400B63E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC0BDDE49863F4606CCB40F /* Pods_YCSecurityTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5830FA7C24D92CA400B63E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49050839673A9644EFFBB62 /* Pods_YCSecurity_YCSecurityUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BDBA3E5AAB75FAC9CD4B1CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF0CA2F98AC27CCAA3973691 /* Pods-YCSecurity.debug.xcconfig */,
+				04805366889B81A644A057AD /* Pods-YCSecurity.release.xcconfig */,
+				66BA6C0CF953807840163232 /* Pods-YCSecurity-YCSecurityUITests.debug.xcconfig */,
+				F83003B6F40F8E5F21213FDC /* Pods-YCSecurity-YCSecurityUITests.release.xcconfig */,
+				DD8441EDCA76739C5E41DE8B /* Pods-YCSecurityTests.debug.xcconfig */,
+				C0B173457C78A4934668DA76 /* Pods-YCSecurityTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5830FA5024D92CA200B63E7B = {
+			isa = PBXGroup;
+			children = (
+				5830FA5B24D92CA200B63E7B /* YCSecurity */,
+				5830FA7724D92CA400B63E7B /* YCSecurityTests */,
+				5830FA8224D92CA400B63E7B /* YCSecurityUITests */,
+				5830FA5A24D92CA200B63E7B /* Products */,
+				2BDBA3E5AAB75FAC9CD4B1CA /* Pods */,
+				7B04EE2A738BE45F7862C82F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5830FA5A24D92CA200B63E7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5830FA5924D92CA200B63E7B /* YCSecurity.app */,
+				5830FA7424D92CA400B63E7B /* YCSecurityTests.xctest */,
+				5830FA7F24D92CA400B63E7B /* YCSecurityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5830FA5B24D92CA200B63E7B /* YCSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				5830FA9124D92CAD00B63E7B /* YCSafeTools */,
+				5830FA5C24D92CA200B63E7B /* AppDelegate.h */,
+				5830FA5D24D92CA200B63E7B /* AppDelegate.m */,
+				5830FA5F24D92CA200B63E7B /* SceneDelegate.h */,
+				5830FA6024D92CA200B63E7B /* SceneDelegate.m */,
+				5830FA6224D92CA200B63E7B /* ViewController.h */,
+				5830FA6324D92CA200B63E7B /* ViewController.m */,
+				5830FA6524D92CA200B63E7B /* Main.storyboard */,
+				5830FA6824D92CA400B63E7B /* Assets.xcassets */,
+				5830FA6A24D92CA400B63E7B /* LaunchScreen.storyboard */,
+				5830FA6D24D92CA400B63E7B /* Info.plist */,
+				5830FA6E24D92CA400B63E7B /* main.m */,
+			);
+			path = YCSecurity;
+			sourceTree = "<group>";
+		};
+		5830FA7724D92CA400B63E7B /* YCSecurityTests */ = {
+			isa = PBXGroup;
+			children = (
+				5830FA7824D92CA400B63E7B /* YCSecurityTests.m */,
+				5830FA7A24D92CA400B63E7B /* Info.plist */,
+			);
+			path = YCSecurityTests;
+			sourceTree = "<group>";
+		};
+		5830FA8224D92CA400B63E7B /* YCSecurityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5830FA8324D92CA400B63E7B /* YCSecurityUITests.m */,
+				5830FA8524D92CA400B63E7B /* Info.plist */,
+			);
+			path = YCSecurityUITests;
+			sourceTree = "<group>";
+		};
+		5830FA9124D92CAD00B63E7B /* YCSafeTools */ = {
+			isa = PBXGroup;
+			children = (
+				5830FA9224D92CAD00B63E7B /* YCSafeManager.h */,
+				5830FAE924D92CAD00B63E7B /* YCSafeManager.m */,
+				5830FAE724D92CAD00B63E7B /* YCRandomKey.h */,
+				5830FAEA24D92CAD00B63E7B /* YCRandomKey.m */,
+				5830FAEC24D92CAD00B63E7B /* YCSafeTools.h */,
+				5830FAE824D92CAD00B63E7B /* YCSafeTools.m */,
+				5830FAEB24D92CAD00B63E7B /* RSA.h */,
+				5830FAE624D92CAD00B63E7B /* RSA.m */,
+				5830FA9324D92CAD00B63E7B /* RSA_Sign */,
+			);
+			path = YCSafeTools;
+			sourceTree = "<group>";
+		};
+		5830FA9324D92CAD00B63E7B /* RSA_Sign */ = {
+			isa = PBXGroup;
+			children = (
+				5830FAE524D92CAD00B63E7B /* HBRSAHandler.h */,
+				5830FA9424D92CAD00B63E7B /* HBRSAHandler.m */,
+				5830FA9524D92CAD00B63E7B /* include */,
+			);
+			path = RSA_Sign;
+			sourceTree = "<group>";
+		};
+		5830FA9524D92CAD00B63E7B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				5830FA9624D92CAD00B63E7B /* libcrypto.a */,
+				5830FA9724D92CAD00B63E7B /* LICENSE */,
+				5830FA9824D92CAD00B63E7B /* libssl.a */,
+				5830FA9924D92CAD00B63E7B /* openssl */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		5830FA9924D92CAD00B63E7B /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+				5830FA9A24D92CAD00B63E7B /* pem2.h */,
+				5830FA9B24D92CAD00B63E7B /* pem.h */,
+				5830FA9C24D92CAD00B63E7B /* ssl3.h */,
+				5830FA9D24D92CAD00B63E7B /* ossl_typ.h */,
+				5830FA9E24D92CAD00B63E7B /* dtls1.h */,
+				5830FA9F24D92CAD00B63E7B /* err.h */,
+				5830FAA024D92CAD00B63E7B /* bn.h */,
+				5830FAA124D92CAD00B63E7B /* blowfish.h */,
+				5830FAA224D92CAD00B63E7B /* cms.h */,
+				5830FAA324D92CAD00B63E7B /* engine.h */,
+				5830FAA424D92CAD00B63E7B /* conf_api.h */,
+				5830FAA524D92CAD00B63E7B /* x509.h */,
+				5830FAA624D92CAD00B63E7B /* asn1_mac.h */,
+				5830FAA724D92CAD00B63E7B /* ui.h */,
+				5830FAA824D92CAD00B63E7B /* kssl.h */,
+				5830FAA924D92CAD00B63E7B /* sha.h */,
+				5830FAAA24D92CAD00B63E7B /* symhacks.h */,
+				5830FAAB24D92CAD00B63E7B /* asn1.h */,
+				5830FAAC24D92CAD00B63E7B /* opensslconf.h */,
+				5830FAAD24D92CAD00B63E7B /* bio.h */,
+				5830FAAE24D92CAD00B63E7B /* rc2.h */,
+				5830FAAF24D92CAD00B63E7B /* dh.h */,
+				5830FAB024D92CAD00B63E7B /* ui_compat.h */,
+				5830FAB124D92CAD00B63E7B /* x509v3.h */,
+				5830FAB224D92CAD00B63E7B /* ssl23.h */,
+				5830FAB324D92CAD00B63E7B /* conf.h */,
+				5830FAB424D92CAD00B63E7B /* md5.h */,
+				5830FAB524D92CAD00B63E7B /* x509_vfy.h */,
+				5830FAB624D92CAD00B63E7B /* txt_db.h */,
+				5830FAB724D92CAD00B63E7B /* safestack.h */,
+				5830FAB824D92CAD00B63E7B /* ecdsa.h */,
+				5830FAB924D92CAD00B63E7B /* objects.h */,
+				5830FABA24D92CAD00B63E7B /* pkcs12.h */,
+				5830FABB24D92CAD00B63E7B /* crypto.h */,
+				5830FABC24D92CAD00B63E7B /* opensslv.h */,
+				5830FABD24D92CAD00B63E7B /* pkcs7.h */,
+				5830FABE24D92CAD00B63E7B /* obj_mac.h */,
+				5830FABF24D92CAD00B63E7B /* buffer.h */,
+				5830FAC024D92CAD00B63E7B /* ssl.h */,
+				5830FAC124D92CAD00B63E7B /* srp.h */,
+				5830FAC224D92CAD00B63E7B /* camellia.h */,
+				5830FAC324D92CAD00B63E7B /* evp.h */,
+				5830FAC424D92CAD00B63E7B /* e_os2.h */,
+				5830FAC524D92CAD00B63E7B /* md4.h */,
+				5830FAC624D92CAD00B63E7B /* hmac.h */,
+				5830FAC724D92CAD00B63E7B /* aes.h */,
+				5830FAC824D92CAD00B63E7B /* comp.h */,
+				5830FAC924D92CAD00B63E7B /* cast.h */,
+				5830FACA24D92CAD00B63E7B /* rc4.h */,
+				5830FACB24D92CAD00B63E7B /* stack.h */,
+				5830FACC24D92CAD00B63E7B /* des.h */,
+				5830FACD24D92CAD00B63E7B /* ocsp.h */,
+				5830FACE24D92CAD00B63E7B /* ec.h */,
+				5830FACF24D92CAD00B63E7B /* ecdh.h */,
+				5830FAD024D92CAD00B63E7B /* rand.h */,
+				5830FAD124D92CAD00B63E7B /* ts.h */,
+				5830FAD224D92CAD00B63E7B /* pqueue.h */,
+				5830FAD324D92CAD00B63E7B /* dso.h */,
+				5830FAD424D92CAD00B63E7B /* seed.h */,
+				5830FAD524D92CAD00B63E7B /* modes.h */,
+				5830FAD624D92CAD00B63E7B /* ssl2.h */,
+				5830FAD724D92CAD00B63E7B /* rsa.h */,
+				5830FAD824D92CAD00B63E7B /* krb5_asn.h */,
+				5830FAD924D92CAD00B63E7B /* des_old.h */,
+				5830FADA24D92CAD00B63E7B /* ripemd.h */,
+				5830FADB24D92CAD00B63E7B /* whrlpool.h */,
+				5830FADC24D92CAD00B63E7B /* tls1.h */,
+				5830FADD24D92CAD00B63E7B /* mdc2.h */,
+				5830FADE24D92CAD00B63E7B /* dsa.h */,
+				5830FADF24D92CAD00B63E7B /* srtp.h */,
+				5830FAE024D92CAD00B63E7B /* asn1t.h */,
+				5830FAE124D92CAD00B63E7B /* cmac.h */,
+				5830FAE224D92CAD00B63E7B /* ebcdic.h */,
+				5830FAE324D92CAD00B63E7B /* idea.h */,
+				5830FAE424D92CAD00B63E7B /* lhash.h */,
+			);
+			path = openssl;
+			sourceTree = "<group>";
+		};
+		7B04EE2A738BE45F7862C82F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B3777D2D2C0DD1951AF4835 /* Pods_YCSecurity.framework */,
+				A62CE705643740183E1967B6 /* Pods_YCSecurity_YCSecurityUITests.framework */,
+				0E5093764B34EE4E2C1B3D31 /* Pods_YCSecurityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5830FA5824D92CA200B63E7B /* YCSecurity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5830FA8824D92CA400B63E7B /* Build configuration list for PBXNativeTarget "YCSecurity" */;
+			buildPhases = (
+				AD4B5E36F8E703240BBE8784 /* [CP] Check Pods Manifest.lock */,
+				5830FA5524D92CA200B63E7B /* Sources */,
+				5830FA5624D92CA200B63E7B /* Frameworks */,
+				5830FA5724D92CA200B63E7B /* Resources */,
+				76928ECBA7705A20EAB9FE44 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YCSecurity;
+			productName = YCSecurity;
+			productReference = 5830FA5924D92CA200B63E7B /* YCSecurity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5830FA7324D92CA400B63E7B /* YCSecurityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5830FA8B24D92CA400B63E7B /* Build configuration list for PBXNativeTarget "YCSecurityTests" */;
+			buildPhases = (
+				FE7B8232B718EC435283033C /* [CP] Check Pods Manifest.lock */,
+				5830FA7024D92CA400B63E7B /* Sources */,
+				5830FA7124D92CA400B63E7B /* Frameworks */,
+				5830FA7224D92CA400B63E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5830FA7624D92CA400B63E7B /* PBXTargetDependency */,
+			);
+			name = YCSecurityTests;
+			productName = YCSecurityTests;
+			productReference = 5830FA7424D92CA400B63E7B /* YCSecurityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5830FA7E24D92CA400B63E7B /* YCSecurityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5830FA8E24D92CA400B63E7B /* Build configuration list for PBXNativeTarget "YCSecurityUITests" */;
+			buildPhases = (
+				1C1AABBF555C4F23BC0812B6 /* [CP] Check Pods Manifest.lock */,
+				5830FA7B24D92CA400B63E7B /* Sources */,
+				5830FA7C24D92CA400B63E7B /* Frameworks */,
+				5830FA7D24D92CA400B63E7B /* Resources */,
+				7C5798CB7A842A9F9DC4F48E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5830FA8124D92CA400B63E7B /* PBXTargetDependency */,
+			);
+			name = YCSecurityUITests;
+			productName = YCSecurityUITests;
+			productReference = 5830FA7F24D92CA400B63E7B /* YCSecurityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5830FA5124D92CA200B63E7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = yc;
+				TargetAttributes = {
+					5830FA5824D92CA200B63E7B = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					5830FA7324D92CA400B63E7B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5830FA5824D92CA200B63E7B;
+					};
+					5830FA7E24D92CA400B63E7B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5830FA5824D92CA200B63E7B;
+					};
+				};
+			};
+			buildConfigurationList = 5830FA5424D92CA200B63E7B /* Build configuration list for PBXProject "YCSecurity" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5830FA5024D92CA200B63E7B;
+			productRefGroup = 5830FA5A24D92CA200B63E7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5830FA5824D92CA200B63E7B /* YCSecurity */,
+				5830FA7324D92CA400B63E7B /* YCSecurityTests */,
+				5830FA7E24D92CA400B63E7B /* YCSecurityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5830FA5724D92CA200B63E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5830FA6C24D92CA400B63E7B /* LaunchScreen.storyboard in Resources */,
+				5830FA6924D92CA400B63E7B /* Assets.xcassets in Resources */,
+				5830FAEF24D92CAE00B63E7B /* LICENSE in Resources */,
+				5830FA6724D92CA200B63E7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5830FA7224D92CA400B63E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5830FA7D24D92CA400B63E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C1AABBF555C4F23BC0812B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YCSecurity-YCSecurityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76928ECBA7705A20EAB9FE44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YCSecurity/Pods-YCSecurity-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YCSecurity/Pods-YCSecurity-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YCSecurity/Pods-YCSecurity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C5798CB7A842A9F9DC4F48E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YCSecurity-YCSecurityUITests/Pods-YCSecurity-YCSecurityUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YCSecurity-YCSecurityUITests/Pods-YCSecurity-YCSecurityUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YCSecurity-YCSecurityUITests/Pods-YCSecurity-YCSecurityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD4B5E36F8E703240BBE8784 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YCSecurity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE7B8232B718EC435283033C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YCSecurityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5830FA5524D92CA200B63E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5830FAF324D92CAE00B63E7B /* YCSafeManager.m in Sources */,
+				5830FAF124D92CAE00B63E7B /* RSA.m in Sources */,
+				5830FA6424D92CA200B63E7B /* ViewController.m in Sources */,
+				5830FAF424D92CAE00B63E7B /* YCRandomKey.m in Sources */,
+				5830FA5E24D92CA200B63E7B /* AppDelegate.m in Sources */,
+				5830FA6F24D92CA400B63E7B /* main.m in Sources */,
+				5830FA6124D92CA200B63E7B /* SceneDelegate.m in Sources */,
+				5830FAED24D92CAE00B63E7B /* HBRSAHandler.m in Sources */,
+				5830FAF224D92CAE00B63E7B /* YCSafeTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5830FA7024D92CA400B63E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5830FA7924D92CA400B63E7B /* YCSecurityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5830FA7B24D92CA400B63E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5830FA8424D92CA400B63E7B /* YCSecurityUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5830FA7624D92CA400B63E7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5830FA5824D92CA200B63E7B /* YCSecurity */;
+			targetProxy = 5830FA7524D92CA400B63E7B /* PBXContainerItemProxy */;
+		};
+		5830FA8124D92CA400B63E7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5830FA5824D92CA200B63E7B /* YCSecurity */;
+			targetProxy = 5830FA8024D92CA400B63E7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5830FA6524D92CA200B63E7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5830FA6624D92CA200B63E7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5830FA6A24D92CA400B63E7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5830FA6B24D92CA400B63E7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5830FA8624D92CA400B63E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5830FA8724D92CA400B63E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5830FA8924D92CA400B63E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF0CA2F98AC27CCAA3973691 /* Pods-YCSecurity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSUV32LBHT;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YCSecurity/YCSafeTools/RSA_Sign/include",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYCategories/YYCategories.framework/Headers\"",
+				);
+				INFOPLIST_FILE = YCSecurity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YCSecurity/YCSafeTools/RSA_Sign/include",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yc.memory.YCSecurity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5830FA8A24D92CA400B63E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04805366889B81A644A057AD /* Pods-YCSecurity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSUV32LBHT;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YCSecurity/YCSafeTools/RSA_Sign/include",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYCategories/YYCategories.framework/Headers\"",
+				);
+				INFOPLIST_FILE = YCSecurity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YCSecurity/YCSafeTools/RSA_Sign/include",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yc.memory.YCSecurity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5830FA8C24D92CA400B63E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD8441EDCA76739C5E41DE8B /* Pods-YCSecurityTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSUV32LBHT;
+				INFOPLIST_FILE = YCSecurityTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yc.memory.YCSecurityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YCSecurity.app/YCSecurity";
+			};
+			name = Debug;
+		};
+		5830FA8D24D92CA400B63E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B173457C78A4934668DA76 /* Pods-YCSecurityTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSUV32LBHT;
+				INFOPLIST_FILE = YCSecurityTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yc.memory.YCSecurityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YCSecurity.app/YCSecurity";
+			};
+			name = Release;
+		};
+		5830FA8F24D92CA400B63E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66BA6C0CF953807840163232 /* Pods-YCSecurity-YCSecurityUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSUV32LBHT;
+				INFOPLIST_FILE = YCSecurityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yc.memory.YCSecurityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YCSecurity;
+			};
+			name = Debug;
+		};
+		5830FA9024D92CA400B63E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83003B6F40F8E5F21213FDC /* Pods-YCSecurity-YCSecurityUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSUV32LBHT;
+				INFOPLIST_FILE = YCSecurityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yc.memory.YCSecurityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YCSecurity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5830FA5424D92CA200B63E7B /* Build configuration list for PBXProject "YCSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5830FA8624D92CA400B63E7B /* Debug */,
+				5830FA8724D92CA400B63E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5830FA8824D92CA400B63E7B /* Build configuration list for PBXNativeTarget "YCSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5830FA8924D92CA400B63E7B /* Debug */,
+				5830FA8A24D92CA400B63E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5830FA8B24D92CA400B63E7B /* Build configuration list for PBXNativeTarget "YCSecurityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5830FA8C24D92CA400B63E7B /* Debug */,
+				5830FA8D24D92CA400B63E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5830FA8E24D92CA400B63E7B /* Build configuration list for PBXNativeTarget "YCSecurityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5830FA8F24D92CA400B63E7B /* Debug */,
+				5830FA9024D92CA400B63E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5830FA5124D92CA200B63E7B /* Project object */;
+}
